@@ -10,15 +10,19 @@ describe("FizzBuzz Game Function", function () {
         });
         it("should return FizzBuzz!", function () {
             var result = fizzbuzz(15)
-            expect(result).toBe("FizzBuzz!")
+            expect(result).toBe("FizzBuzz!");
         });
         it("should return Fizz", function (){
             var result = fizzbuzz(6)
-            expect(result).toBe("Fizz")
+            expect(result).toBe("Fizz");
         });
             it("should return Buzz", function (){
             var result = fizzbuzz(10)
-            expect(result).toBe("Buzz")
+            expect(result).toBe("Buzz");
+        });
+        it("should return 7", function (){
+        var result = fizzbuzz(7)
+        expect(result).toBe(7);
         });
     });
 });
